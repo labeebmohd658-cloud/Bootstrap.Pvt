@@ -1,5 +1,8 @@
-/* .row{
-    height: 150px; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .bothead img{
     width: 300px;
     
@@ -42,7 +45,8 @@ html, body {
   margin: 0;
   padding: 0;
   width: 100%;
-}
+  overflow-x: hidden;
+} 
 
 .add {
   list-style: none;
@@ -55,3 +59,11 @@ html, body {
 }
 
 
+/* ensure full-bleed footer background */
+.last {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding-left: 0;
+  padding-right: 0;
+}
