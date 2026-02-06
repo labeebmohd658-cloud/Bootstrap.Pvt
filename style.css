@@ -1,0 +1,40 @@
+/* .row{
+    height: 150px; */
+.bothead img{
+    width: 300px;
+    
+}.bothead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}.bothead li{
+    padding-left: 50px;
+   
+}.bothead ul{
+    list-style: none;
+    display: flex;
+    
+}.login{
+
+    display: flex;
+    justify-content: end;
+}.slide{
+    height: 700px;
+    
+}.slidetext h5{
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(234, 229, 229);
+   
+}.slidetext p{
+    font-size: 40px;
+}.boo{
+    border: 5px solid rgb(205, 168, 59);
+    padding: 10px;
+}.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
